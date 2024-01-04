@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Orbitron:wght@400;900&family=Space+Mono:ital@0;1&family=Tangerine&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Orbitron:wght@400;900&family=Space+Mono:ital@0;1&family=Tangerine&family=VT323&family=Ysabeau+SC:wght@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Exo+2:wght@300&family=Expletus+Sans:ital@0;1&family=Inconsolata:wght@200;300;400&family=Noto+Serif+Display:wght@100&family=Orbitron:wght@500;600;900&family=Space+Mono:ital@0;1&family=Tangerine&family=VT323&family=Ysabeau+SC:wght@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Chakra+Petch:wght@300&family=Cinzel:wght@400;500&family=Exo+2:wght@300&family=Expletus+Sans:ital@0;1&family=Inconsolata:wght@200;300;400&family=Noto+Serif+Display:wght@100&family=Orbitron:wght@500;600;900&family=Space+Mono:ital@0;1&family=Tangerine&family=VT323&family=Ysabeau+SC:wght@1&display=swap');
+.container {
+    position: relative;
+    text-align: center;
+    color:black;
+  }
+nav{
+    text-align: center;
+	margin-right: 30px;  
+    margin-bottom: 10px;
+	margin-top: -20px; 
+	border-spacing: 5px;
+	border-radius: 4px solid black;
+}
+  img{
+    width: 100%;
+  }
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-52%, -63%);
+    font-size: 33px;
+  }
+
+h1{
+    text-align: center;
+    color: rgb(18, 17, 17); 
+    font-family: 'VT323', monospace; 
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+}
+h6{
+    color: rgb(44, 12, 12);
+    font-family: 'Cinzel', serif;
+}
+p{
+    color: rgb(36, 39, 39);
+    font-family: 'Inconsolata', monospace;
+}
+h3{
+    color: aqua;
+    border-radius: 2px solid black;
+}
+.sec1{
+    color: black;
+}
+section{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #00000085, transparent);    justify-content: space-between;
+    color:black;
+}
+.img1{
+    width: 20%;
+    height: 20%;
+    border-radius: 2px solid red;
+}

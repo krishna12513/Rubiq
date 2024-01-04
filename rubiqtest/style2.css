@@ -1,0 +1,39 @@
+@media only screen and (max-width:600px){
+/* for desktop */
+.col-1 {width: 9.66%;}
+.col-2 {width:13.80%;}
+.col-3 {width:25%;}
+.col-4 {width:35%;}
+.col-5 {width:41.63%;}
+.col-6 {width:31.99%;}
+.col-7 {width:56.44%;}
+.col-8 {width:44.56%;}
+.col-9 {width:75%;}
+.col-10 {width:83.78%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+
+@media only screen and (max-width:768px) {
+    /* for mobiles */
+    [class*="col_"]{
+        width:100%
+    }
+}
+
+img{
+    width: 80%;
+}
+.ware{
+    position: absolute;
+    padding-top: 210px;
+    top: 60%;
+    left: 5%;
+    color: rgb(10, 10, 10);
+    font-size: 34px;
+}
+.content{
+    font-size: medium;
+}
+.container{
+    text-align: center;
+}
